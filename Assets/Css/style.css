@@ -471,10 +471,10 @@ and (max-width: 1180px) {
     
     .recipe-text-1 h1{
         width: 60%;
-        height: 8vh;
         background-color: #eef639;
         font-size: 60px;
         margin-top: 20px;
+        height: auto;
     }
     
     .recipe-1, .recipe-2,.recipe-3, img, .recipe-text,.recipe-link{
@@ -510,7 +510,7 @@ and (max-width: 1180px) {
     }
     .about-me-text{
         width: 60%;
-        height: 8vh;
+        height: auto;
         background-color: #eef639;
         font-size: 60px;
     }
@@ -555,7 +555,7 @@ and (max-width: 1180px) {
        width: 60%;
        height: auto;
        background-color: #eef639;  
-       height: 8vh;
+       height: auto;
        font-size: 60px;
     }   
     
@@ -564,7 +564,7 @@ and (max-width: 1180px) {
     }
     }
 
-/* Desktop */
+/* Responsive Desktop */
 @media only screen
 and (min-width: 1179px) 
 and (max-width: 1300px) {
@@ -594,6 +594,12 @@ and (max-width: 1300px) {
 
     }
 
+  /* Section TOPICS*/
+  .topic-container{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+  }
+
     /* Section ABOUT ME */
     
     .content-about-me p{
@@ -616,163 +622,8 @@ and (max-width: 1300px) {
     .contact-form p{
         font-size: 25px;
     }
+    .contenct-contact, h1{
+        height: 100%;
+    }
     
     }
-
-
-
-
-
-
-/* Responsive Mobile Devices 
-
-@media only screen
-and (min-width: 280px) 
-and (max-width: 700px) {
-
-.logo{
-    width: 100%;
-    margin: 10px;
-}
-
-section.home{
- width: 100%;
- height: auto;
-}
-
-header{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    
-}
-nav ul{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 20px;
-    justify-content: space-around;
-    padding: 5px;
-}
-nav{
-    width: 100%;
-}
-
-.content{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column-reverse;
-    
-}
-.introduction{
-    width: 100%; 
-    height: auto;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 300;
-}
-.content-image{
-    width: 100%;
-    height: auto;
-}
-
-  Section RECIPE 
-
-
-.recipe-container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-}
-.recipe-image{
-    width: 100%;
-    height: auto;
-    display: block;
-}
-.recipe-text-1 h1{
-    width: 80%;
-    height: 10vh;
-    background-color: #eef639;
-    font-size: 40px;
-    margin-top: 20px;
-}
-.recipe-1, .recipe-2,.recipe-3, img, .recipe-text,.recipe-link{
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-}
-.text3, p, .recipe-link{
-    padding: 10px;
-    margin: 5px;
-    text-align: left; 
- }
-
- .text3{
-     font-size: 25px;
- }
-.recipe-link
-{
-   text-align: center;
-    display: block;
-    color: black;
-}
-
-  Section ABOUT ME 
-
-.about-me{
-    width: 100%;
-    height: auto;
-}
-.about-me-text h1{
-    width: 80%;
-    height: 10vh;
-    font-size: 40px;   
-}
-
-.content-about-me p{
-    width: 100%;
-    font-size: 18px;
-    margin: 5px;
-    padding: 20px;
-}
-
-  Section CONTACT 
-
-
-.contact-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: auto;
-}
-
-.contact-form h3{
-   font-size: 30px;
-   margin-bottom: 20px; 
-}
-.contact-form p{
-    font-size: 15px;
-    padding: 0;
-    margin: 0;
-}
-
-.contact-form{
-    margin: 40px;
-    padding: 0;
-}
-  .content-contact, h1{
-      font-size: 40px;
-      text-align: left;
-      background-color: #eef639;  
-      width: 80%;
-      height: 10vh;
-  }
-
-}*/

@@ -84,7 +84,7 @@ a:hover{
 
 .recipe-container{
     width: 100%;
-    height: 85vh;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);  
 }
@@ -168,6 +168,7 @@ a:hover{
 
 section.topics{
     width: 100%;
+    height: auto;
 }
 
 .topic-container{
@@ -184,6 +185,9 @@ img{
 }
 .topic-content, li, a{
     list-style-type: none;
+}
+.topic{
+    height: 15vh;
 }
 /* Section CONTACT */
 section.contact{
@@ -420,7 +424,7 @@ and (max-width: 1180px) {
   /* Section HOME */
     .logo{
         width: 100%;
-        font-size: 22px;
+        font-size: 18px;
         margin-top: 40px;
     }
     header{
@@ -431,7 +435,7 @@ and (max-width: 1180px) {
     }
     nav ul{ 
         width: 100%;
-        font-size: 22px;
+        font-size: 18px;
         margin-bottom: 25px;
     }
   
@@ -442,7 +446,7 @@ and (max-width: 1180px) {
 
     .introduction{
         width: 100%; 
-        font-size: 60px;
+        font-size: 40px;
         text-align: center;
         font-weight: 300;
     }
@@ -462,7 +466,8 @@ and (max-width: 1180px) {
         width: 100%;
         height: auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);   
+        grid-template-columns: repeat(3, 1fr); 
+       
     }
     .recipe-image{
         width: 100%;
@@ -472,27 +477,22 @@ and (max-width: 1180px) {
     .recipe-text-1 h1{
         width: 60%;
         background-color: #eef639;
-        font-size: 60px;
+        font-size: 40px;
         margin-top: 20px;
-        height: auto;
+        height: 10vh;
     }
     
     .recipe-1, .recipe-2,.recipe-3, img, .recipe-text,.recipe-link{
         font-size: 18px;
     }
 
-      .text, p{
-       padding: 20px;
-       margin: 10px;
-       text-align: left;
-       font-size: 20px;  
-    }
+     
     .recipe-link{
         width: auto;
     }
 
     .text3{
-        font-size: 30px;
+        font-size: 22px;
     }
     .recipe-link
     {
@@ -508,16 +508,16 @@ and (max-width: 1180px) {
         width: 100%;
         height: auto;
     }
-    .about-me-text{
+    .about-me-text, h1{
         width: 60%;
-        height: auto;
+        height: 10vh;
         background-color: #eef639;
-        font-size: 60px;
+        font-size: 40px;
     }
    
     .content-about-me p{
-        width: 100%;
-        font-size: 25px;
+        width: 60%;
+        font-size: 20px;
         margin: 0 auto;
         padding: 35px;
     }
@@ -526,12 +526,17 @@ and (max-width: 1180px) {
     .topic-container{
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        padding: 20px;
     }
     .topic-h{
         font-size: 30px;
     }
     .topic-list{
         font-size: 25px;
+    }
+    .topic{
+        font-size: 40px;
+        height: 10vh;
     }
     /* Section CONTACT */
 
@@ -545,22 +550,22 @@ and (max-width: 1180px) {
         height: auto;
    }
     .contact-form h3{
-       font-size: 40px;
+       font-size: 30px;
        margin-top: 10px;
     }
     .contact-form p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .content-contact, h1{
        width: 60%;
-       height: auto;
+       height: 10vh;
        background-color: #eef639;  
        height: auto;
-       font-size: 60px;
+       font-size: 40px;
     }   
     
     .contact-button{
-        font-size: 18px;
+        font-size: 12px;
     }
     }
 
@@ -571,17 +576,22 @@ and (max-width: 1300px) {
 
     header{
         width: 100%;
-        margin-bottom: 20px;
+        height: auto;
         display: flex;
         flex-direction: column;
-        margin-bottom: 50px;   
+         
     }
     nav ul{
-        font-size: 25px;
+        font-size: 15px;
+        margin-bottom: 18px;
     }
     .logo{
-        font-size: 25px;
+        width: 100%;
+        font-size: 18px;
        
+    }
+    .introduction{
+        font-size: 40px;
     }
     /* Section RECIPE*/
     
@@ -589,24 +599,38 @@ and (max-width: 1300px) {
         width: 100%;
         height: auto;
     }
-    .recipe-1,.recipe-2,.recipe-3,.recipe-text,.recipe-link{
-        font-size: 25px;
 
+    .recipe-1,.recipe-2,.recipe-3,.recipe-text,.recipe-link{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        font-size: 18px;
     }
+    .recipe-text-1 h1{
+        font-size: 40px;
+        height: 10vh;
+    }
+
 
   /* Section TOPICS*/
   .topic-container{
       display: grid;
       grid-template-columns: repeat(4,1fr);
   }
-
+ .topic{
+font-size: 40px;
+height: 10vh;}
     /* Section ABOUT ME */
     
     .content-about-me p{
-        width: 100%;
+        width: 60%;
+        height: auto;
+        font-size: 18px;
+        margin: 0 auto; 
+        padding: 100px;
+    }
+    .about-me-text h1{
+        height: 10vh;
         font-size: 35px;
-        margin: 0 auto;
-        padding: 50px;
     }
 
     /* Section CONTACT */
@@ -617,13 +641,14 @@ and (max-width: 1300px) {
         justify-content: space-between;
     }
     .contact-form h3{
-       font-size: 45px;
+       font-size: 35px;
     }
     .contact-form p{
-        font-size: 25px;
+        font-size: 20px;
     }
-    .contenct-contact, h1{
-        height: 100%;
+    .content-contact, h1{
+        height: 10vh;
+        font-size: 40px;
     }
     
     }

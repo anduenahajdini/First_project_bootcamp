@@ -1,652 +1,659 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sawarabi+Mincho&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Sawarabi+Mincho&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color:#f9fafa; 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f9fafa;
 }
 
-.logo img{
+.logo img {
   width: 70%;
   height: auto;
   display: block;
 }
-.logo{
-    width: 30%;
+.logo {
+  width: 30%;
 }
 
-section.home{
- width: 100%;
- height: auto;
+section.home {
+  width: 100%;
+  height: auto;
 }
 
-header{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-nav ul{
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    list-style: none;   
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
 }
-nav ul a{
-    text-decoration: none;
-    color: black;
+nav ul a {
+  text-decoration: none;
+  color: black;
 }
-nav{
-    width: 60%;
+nav {
+  width: 60%;
 }
 
-.content{
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.content {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.introduction{
-    width: 65%; 
-    font-size: 60px;
-    text-align: center;
-    font-weight: 300;
+.introduction {
+  width: 65%;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 300;
 }
-.content-image{
-    width: 35%;
+.content-image {
+  width: 35%;
 }
-.content-image img{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: auto;  
+.content-image img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
 }
-.b{
-    background-color: #eef639;
+.b {
+  background-color: #eef639;
 }
-a:hover{
-    background-color: #eef639;
-   
+a:hover {
+  background-color: #eef639;
 }
 
 /* Section RECIPE */
 
-.section.recipes{
-    width: 100%;
-    height: 100vh;
+.section.recipes {
+  width: 100%;
+  height: 100vh;
 }
 
-.recipe-container{
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);  
+.recipe-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-.recipe-image{
-    width: 100%;
-    display: block;
-}
-
-.recipe-text-1 h1{
-    width: 60%;
-    height: 15vh;
-    background-color: #eef639;
-    font-size: 60px;
+.recipe-image {
+  width: 100%;
+  display: block;
 }
 
+.recipe-text-1 h1 {
+  width: 60%;
+  height: 15vh;
+  background-color: #eef639;
+  font-size: 60px;
+}
 
-.recipe-1, .recipe-2,.recipe-3, img, .recipe-text,.recipe-link{
-    width: 100%;
-    padding: 20px;
-    margin: 0 auto;
+.recipe-1,
+.recipe-2,
+.recipe-3,
+img,
+.recipe-text,
+.recipe-link {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
 }
- .text3, p, .recipe-link{
-   padding: 10px;
-   margin: 10px;
-   text-align: left;
-   
+.text3,
+p,
+.recipe-link {
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
 }
-.recipe-link
-{
-   text-align: center;
-    width: 100%;
-    display: block;
-    background-color: #eef639;;
-    text-decoration: none;
-    color: black;
-   
+.recipe-link {
+  text-align: center;
+  width: 100%;
+  display: block;
+  background-color: #eef639;
+  text-decoration: none;
+  color: black;
 }
 /* Section ABOUT ME */
 
-.about-me{
-    width: 100%;
-    height: auto;
+.about-me {
+  width: 100%;
+  height: auto;
 }
-.about-me-text h2{
-    width: 60%;
-    height: 15vh;
-    background-color: #eef639;
-    font-size: 60px;
-     
+.about-me-text h2 {
+  width: 60%;
+  height: 15vh;
+  background-color: #eef639;
+  font-size: 60px;
 }
-.content-about-me p{
-    width: 40%;
-    font-size: 25px;
-    margin: 0 auto;
-    padding: 60px;
-}
-
-.about-me-container{
-    width: 100%;
-   display: flex;
-   flex-direction: column;
+.content-about-me p {
+  width: 40%;
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 60px;
 }
 
-.b1, .b2, .b4, .b7{
-    font-size: 45px;
-    font-weight: normal;
-}
-.em1, .em4, .em6{
-    font-size: 45px;
-    background-color: black;
-    color: white;
-}
-.b3, .b5{
-    font-size: 45px;
-    background-color: #e0e0e0;
-    font-weight: normal;
+.about-me-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
+.b1,
+.b2,
+.b4,
+.b7 {
+  font-size: 45px;
+  font-weight: normal;
+}
+.em1,
+.em4,
+.em6 {
+  font-size: 45px;
+  background-color: black;
+  color: white;
+}
+.b3,
+.b5 {
+  font-size: 45px;
+  background-color: #e0e0e0;
+  font-weight: normal;
+}
 
 /* Section TOPICS */
 
-section.topics{
-    width: 100%;
-    height: auto;
+section.topics {
+  width: 100%;
+  height: auto;
 }
 
-.topic-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 30px;
+.topic-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px;
 }
-img{
-    width: 100%;
-    height: auto;
+img {
+  width: 100%;
+  height: auto;
 }
-.topic-h{
- margin-bottom: 20px;
+.topic-h {
+  margin-bottom: 20px;
 }
-.topic-content, li, a{
-    list-style-type: none;
+.topic-content,
+li,
+a {
+  list-style-type: none;
+}
+.topic h1 {
+  width: 60%;
+  height: 15vh;
+  background-color: #eef639;
+  font-size: 60px;
 }
 
 /* Section CONTACT */
-section.contact{
- width: 100%;
- height: 100vh;
+section.contact {
+  width: 100%;
+  height: 100vh;
 }
 
-.contact-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.contact-form h3{
-   font-size: 40px;
-   
+.contact-form h3 {
+  font-size: 40px;
 }
-.contact-form p{
-    font-size: 20px;
-}
-
-.contact-form{
-    margin: 0 auto;
-}
-.content-contact, h1{
-   width: 60%;
-   background-color: #eef639;  
-   height: 15vh;
-   font-size: 60px;
+.contact-form p {
+  font-size: 20px;
 }
 
-input[type=text]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  input[type=email]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-textarea{
-    width: 100%;
-    padding: 100px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+.contact-form {
+  margin: 0 auto;
 }
-.contact-button{
-    width: 100%;
-    background-color: #e0e0e0;
-    color: black;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    background-color: #eef639;  
-  }
- 
+.content-contact,
+h1 {
+  width: 60%;
+  background-color: #eef639;
+  height: 15vh;
+  font-size: 60px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  padding: 100px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact-button {
+  width: 100%;
+  background-color: #e0e0e0;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #eef639;
+}
+
 /* Responsive Mobile Devices */
 
-@media only screen
-and (min-width: 280px) 
-and (max-width: 700px) {
-
-.logo{
+@media only screen and (min-width: 280px) and (max-width: 700px) {
+  .logo {
     width: 100%;
-    
-}
+  }
 
-section.home{
- width: 100%;
- height: auto;
-}
-
-header{
+  section.home {
+    width: auto;
+    height: auto;
+  }
+  header {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    
-}
-nav ul{
+  }
+  nav ul {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
     justify-content: space-around;
-    padding: 5px;
-}
-nav{
+  }
+  nav {
     width: 100%;
-}
+  }
 
-.content{
+  .content {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column-reverse;
-    
-}
-.introduction{
-    width: 100%; 
+  }
+  .introduction {
+    width: 100%;
     height: auto;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
-}
-.content-image{
+  }
+  .content-image {
     width: 100%;
     height: auto;
-}
+  }
 
   /* Section RECIPE */
 
-
-.recipe-container{
+  .recipe-container {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
-}
-.recipe-image{
+  }
+  .recipe-image {
     width: 100%;
     height: auto;
     display: block;
-}
-.recipe-text-1 h1{
+  }
+  .recipe-text-1 h1 {
     width: 80%;
     height: 10vh;
     background-color: #eef639;
     font-size: 40px;
     margin-top: 20px;
-}
-.recipe-1, .recipe-2,.recipe-3, img, .recipe-text,.recipe-link{
+  }
+  .recipe-1,
+  .recipe-2,
+  .recipe-3,
+  img,
+  .recipe-text,
+  .recipe-link {
     width: 100%;
     height: auto;
     padding: 10px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-}
-.text3, p, .recipe-link{
+  }
+  .text3,
+  p,
+  .recipe-link {
     padding: 10px;
     margin: 5px;
-    text-align: left; 
- }
+    text-align: left;
+  }
 
- .text3{
-     font-size: 25px;
- }
-.recipe-link
-{
-   text-align: center;
+  .text3 {
+    font-size: 25px;
+  }
+  .recipe-link {
+    text-align: center;
     display: block;
     color: black;
-}
+  }
 
   /* Section ABOUT ME */
 
-.about-me{
+  .about-me {
     width: 100%;
     height: auto;
-}
-.about-me-text h1{
+  }
+  .about-me-text h1 {
     width: 80%;
     height: 10vh;
-    font-size: 40px;   
-}
+    font-size: 40px;
+  }
 
-.content-about-me p{
+  .content-about-me p {
     width: 100%;
     font-size: 18px;
     margin: 5px;
     padding: 20px;
-}
-/* Section TOPICS */
-.topic-container{
+  }
+  /* Section TOPICS */
+  .topic-container {
     display: flex;
     flex-direction: column;
-}
+  }
 
- /* Section CONTACT */
+  /* Section CONTACT */
 
-
-.contact-container{
+  .contact-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: auto;
-}
+  }
 
-.contact-form h3{
-   font-size: 30px;
-   margin-bottom: 20px; 
-}
-.contact-form p{
+  .contact-form h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .contact-form p {
     font-size: 15px;
     padding: 0;
     margin: 0;
-}
-
-.contact-form{
-    margin: 40px;
-    padding: 0;
-}
-  .content-contact, h1{
-      font-size: 40px;
-      text-align: left;
-      background-color: #eef639;  
-      width: 80%;
-      height: 10vh;
   }
 
+  .contact-form {
+    margin: 40px;
+    padding: 0;
+  }
+  .content-contact,
+  h1 {
+    font-size: 40px;
+    text-align: left;
+    background-color: #eef639;
+    width: 80%;
+    height: 10vh;
+  }
 }
 
 /* Responsive IPAD Devices */
 
-@media only screen
-and (min-width: 701px) 
-and (max-width: 1180px) {
-
+@media only screen and (min-width: 701px) and (max-width: 1180px) {
   /* Section HOME */
-    .logo{
-        width: 100%;
-        font-size: 18px;
-        margin-top: 40px;
-    }
-    header{
-        width: 100%;
-        margin-bottom: 60px;
-        display: flex;
-        flex-direction: column; 
-    }
-    nav ul{ 
-        width: 100%;
-        font-size: 18px;
-        margin-bottom: 25px;
-    }
-  
-    nav{
-        width: 100%;
-        height: auto;  
-    }
+  .logo {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  header {
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
 
-    .introduction{
-        width: 100%; 
-        font-size: 40px;
-        text-align: center;
-        font-weight: 300;
-    }
-    .content-image{
-        width: 100%;
-    }
-    .content-image img{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        height: auto;  
-    }
+  nav {
+    width: 100%;
+    height: auto;
+  }
 
-    /* Section RECIPE*/
-   
-    .recipe-container{
-        width: 100%;
-        height: auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); 
-       
-    }
-    .recipe-image{
-        width: 100%;
-        display: block;
-    }
-    
-    .recipe-text-1 h1{
-        width: 60%;
-        background-color: #eef639;
-        font-size: 40px;
-        margin-top: 20px;
-        height: 10vh;
-    }
-    
-    .recipe-1, .recipe-2,.recipe-3, img, .recipe-text,.recipe-link{
-        font-size: 18px;
-    }
+  .introduction {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .content-image {
+    width: 100%;
+  }
+  .content-image img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
 
-     
-    .recipe-link{
-        width: auto;
-    }
+  /* Section RECIPE*/
 
-    .text3{
-        font-size: 22px;
-    }
-    .recipe-link
-    {
-       text-align: center;
-        display: block;
-        color: black;
-    }
-    
-    
-    /* Section ABOUT ME */
-    
-    .about-me{
-        width: 100%;
-        height: auto;
-    }
-    .about-me-text, h1{
-        width: 60%;
-        height: 10vh;
-        background-color: #eef639;
-        font-size: 40px;
-    }
-   
-    .content-about-me p{
-        width: 60%;
-        font-size: 20px;
-        margin: 0 auto;
-        padding: 35px;
-    }
-    /* Section TOPICS*/
+  .recipe-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .recipe-image {
+    width: 100%;
+    display: block;
+  }
 
-    .topic-container{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        padding: 20px;
-    }
-    .topic-h{
-        font-size: 30px;
-    }
-    .topic-list{
-        font-size: 25px;
-    }
-    .topic{
-        font-size: 40px;
-        height: 10vh;
-    }
-    /* Section CONTACT */
+  .recipe-text-1 h1 {
+    width: 60%;
+    background-color: #eef639;
+    font-size: 40px;
+    margin-top: 20px;
+    height: 10vh;
+  }
 
-    .contact-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-   section.contact{
-        width: 100%;
-        height: auto;
-   }
-    .contact-form h3{
-       font-size: 30px;
-       margin-top: 10px;
-    }
-    .contact-form p{
-        font-size: 20px;
-    }
-    .content-contact, h1{
-       width: 60%;
-       height: 10vh;
-       background-color: #eef639;  
-       height: auto;
-       font-size: 40px;
-    }   
-    
-    .contact-button{
-        font-size: 12px;
-    }
-    }
+  .recipe-1,
+  .recipe-2,
+  .recipe-3,
+  img,
+  .recipe-text,
+  .recipe-link {
+    font-size: 18px;
+  }
+
+  .recipe-link {
+    width: auto;
+  }
+
+  .text3 {
+    font-size: 22px;
+  }
+  .recipe-link {
+    text-align: center;
+    display: block;
+    color: black;
+  }
+
+  /* Section ABOUT ME */
+
+  .about-me {
+    width: 100%;
+    height: auto;
+  }
+  .about-me-text,
+  h1 {
+    width: 60%;
+    height: 10vh;
+    background-color: #eef639;
+    font-size: 40px;
+  }
+
+  .content-about-me p {
+    width: 60%;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 35px;
+  }
+  /* Section TOPICS*/
+
+  .topic-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+  }
+  .topic-h {
+    font-size: 30px;
+  }
+  .topic-list {
+    font-size: 25px;
+  }
+  .topic,
+  h1 {
+    height: 10vh;
+    font-size: 40px;
+  }
+  /* Section CONTACT */
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  section.contact {
+    width: 100%;
+    height: auto;
+  }
+  .contact-form h3 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .contact-form p {
+    font-size: 20px;
+  }
+  .content-contact,
+  h1 {
+    width: 60%;
+    height: 10vh;
+    background-color: #eef639;
+    font-size: 40px;
+  }
+
+  .contact-button {
+    font-size: 12px;
+  }
+}
 
 /* Responsive Desktop */
-@media only screen
-and (min-width: 1179px) 
-and (max-width: 1300px) {
+@media only screen and (min-width: 1179px) and (max-width: 1300px) {
+  header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul {
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+  .logo {
+    width: 100%;
+    font-size: 18px;
+  }
+  .introduction {
+    font-size: 40px;
+  }
+  /* Section RECIPE*/
 
-    header{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-         
-    }
-    nav ul{
-        font-size: 15px;
-        margin-bottom: 18px;
-    }
-    .logo{
-        width: 100%;
-        font-size: 18px;
-       
-    }
-    .introduction{
-        font-size: 40px;
-    }
-    /* Section RECIPE*/
-    
-    .section.recipes{
-        width: 100%;
-        height: auto;
-    }
+  .section.recipes {
+    width: 100%;
+    height: auto;
+  }
 
-    .recipe-1,.recipe-2,.recipe-3,.recipe-text,.recipe-link{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        font-size: 18px;
-    }
-    .recipe-text-1 h1{
-        font-size: 40px;
-        height: 10vh;
-    }
-
+  .recipe-1,
+  .recipe-2,
+  .recipe-3,
+  .recipe-text,
+  .recipe-link {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 18px;
+  }
+  .recipe-text-1 h1 {
+    font-size: 40px;
+    height: 10vh;
+  }
 
   /* Section TOPICS*/
-  .topic-container{
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
+  .topic-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
- .topic{
-font-size: 40px;
-height: 10vh;}
-    /* Section ABOUT ME */
-    
-    .content-about-me p{
-        width: 60%;
-        height: auto;
-        font-size: 18px;
-        margin: 0 auto; 
-        padding: 100px;
-    }
-    .about-me-text h1{
-        height: 10vh;
-        font-size: 35px;
-    }
+  .topic {
+    font-size: 40px;
+    height: 10vh;
+  }
+  /* Section ABOUT ME */
 
-    /* Section CONTACT */
+  .content-about-me p {
+    width: 60%;
+    height: auto;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 100px;
+  }
+  .about-me-text h1 {
+    height: 10vh;
+    font-size: 35px;
+  }
 
-    .contact-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .contact-form h3{
-       font-size: 35px;
-    }
-    .contact-form p{
-        font-size: 20px;
-    }
-    .content-contact, h1{
-        height: 10vh;
-        font-size: 40px;
-    }
-    
-    }
+  /* Section CONTACT */
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact-form h3 {
+    font-size: 35px;
+  }
+  .contact-form p {
+    font-size: 20px;
+  }
+  .content-contact,
+  h1 {
+    height: 10vh;
+    font-size: 40px;
+  }
+}
